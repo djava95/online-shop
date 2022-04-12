@@ -1,0 +1,41 @@
+.shop-item-cont {
+    display: flex;
+    justify-content: space-between;
+    min-height: 10em;
+    width: 50%;
+    min-width: 30em;
+    border-radius: 8px;
+    margin-top: 3em;
+    background-color: white;
+    
+}
+
+.item-properties-list {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+
+.item-properties-list lh {
+    font-size: 18px;
+}
+
+
+.item-description {
+    margin-top: 1em;
+    width: 20em;
+}
+
+.price-and-btn-cont {
+    display: flex;
+    flex-direction: column;
+    border: 1px none black;
+    padding-right: 1.4em;
+}
+
+.price-cont {
+    margin-top: 0.9em;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}

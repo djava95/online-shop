@@ -1,0 +1,26 @@
+@import './link-button-mixins';
+
+.shop-link-button {
+   @include nav-link-button; 
+   margin-right: 2.2em;
+
+}
+     
+.cart-link-button {
+    @include nav-link-button;
+    margin-right: 2.2em;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.cart-icon {
+    width: 1.3em;
+    margin-right: 0.3em;
+    transition: 800ms ;
+}
+
+.cart-link-button:hover > .cart-icon {
+    filter: invert(1);
+}

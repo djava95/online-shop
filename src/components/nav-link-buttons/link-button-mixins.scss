@@ -1,0 +1,25 @@
+@mixin nav-link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.3em;
+    width: 9em;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 800ms , color 800ms ;
+    
+    &:hover {
+        background-color: rgb(135, 135, 135);
+        color: white;
+    }
+
+    &:active {
+        background-color: rgb(67, 67, 67);
+        transition: 200ms;
+    }
+}
+

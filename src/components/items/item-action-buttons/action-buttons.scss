@@ -1,0 +1,34 @@
+@import '../../nav-link-buttons/link-button-mixins.scss';
+
+
+.add-button {
+    @include nav-link-button;
+    width: 7em;
+    height: 2.4em;
+    border: 2px solid rgb(43, 43, 43);
+    margin-top: 3.6em;
+
+    &:hover {
+        background-color: rgb(72, 72, 72);  
+    }
+    &:active {
+        background-color: rgb(43, 43, 43);  
+    }
+}
+
+.add-remove-button {
+    @include nav-link-button;
+    width: 2em;
+    height: 2em;
+    border: 2px solid rgb(43, 43, 43);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0.35em;
+    padding-top: 0em;    
+    padding-bottom: 0.2em;
+}
+
+
+
+
+
